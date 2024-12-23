@@ -1,0 +1,32 @@
+# Ignore the virtual environment folder (myenv)
+myenv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variable files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore .idea or .vscode (for IDE settings)
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store  # macOS system files
+Thumbs.db  # Windows system files
+
+# Ignore ChromaDB database and data files
+chroma_db/
+data/
+
+# Ignore any other sensitive or unneeded files
+*.bak
+*.swp
